@@ -1,0 +1,5 @@
+npm init -y
+npm i express ejs socket.io (its going to allow us to communicate the actual server back and forth)
+npm i uuid (it allows us create dynamic url)
+npm i --save-dev nodemon (its taking care of imidaiate changes we dont need to restart our server)
+npm i -g peer (it has server setup to connect different users)
