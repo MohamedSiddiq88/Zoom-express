@@ -8,6 +8,10 @@ const dotenv = require('dotenv');
 const app = express();
 app.use(cors());
 
+app.get("/",(req,res)=>{
+  res.send("Welocome to mera Zoom Backend")
+})
+
 const server = http.createServer(app);
 dotenv.config()
 const io = socketIO(server, {
